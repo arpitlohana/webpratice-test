@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+.row{
+	width: 100%;
+}
+h1{
+	text-align: center;
+}
+
+.para{
+	padding-top: 40px;
+	background-color: gray;
+	border: 2px solid black;
+	text-align: center;
+	position: relative;
+	margin-block
+
+}
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+		margin-bottom: 5px;
+		
+		
+	}
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.col-md-4{
+		float: left;
+		width: 50%;
+		padding: 5px;
+		margin-bottom: 5px;
+	}
+	.col-md-1{
+		float: left;
+		width: 100%;
+		padding: 5px;
+		margin-bottom: 5px;
+	}
+
+}
+@media(max-width: 767px){
+	.col-sm-4{
+		float: left;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+
+}
+.post{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 125%;
+	padding:3px;
+	text-align: center;
+	background-color: orange;
+	border-left: :1px black solid;
+	border-bottom: :1px black solid;
+	width: 100px;
+}
+
